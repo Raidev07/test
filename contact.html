@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSHS PORTAL</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="history.html">HISTORY</a></li>
+          <li><a href="strand.html">STRANDS</a></li>
+          <li><a href="vlog.html">VLOGS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+  </section>
+
+<!------- contact us ------>
+
+<section class="location">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.77261190726!2d121.06330397421617!3d14.554991878193412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c888381bbe6f%3A0x52619dd7ad46ddc1!2sButing%20Senior%20High%20School!5e0!3m2!1sen!2sph!4v1682564113728!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+  <div class="row">
+    <div class="contant-col">
+      <div>
+        <i class="fa fa-home"></i>
+        <span>
+          <h5>G. Bunyi, Pasig, Metro Manila</h5>
+          <p>H338+X9 Pasig, Metro Manila</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <span>
+          <h5>0287215846</h5>
+          <p>Monday to Friday, 8AM to 5PM</p>
+        </span>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <span>
+          <h5>butingshs@gmail.com</h5>
+          <p>Email us your query</p>
+        </span>
+      </div>
+    </div>
+    <div class="contant-col">
+      <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter Your name" required>
+        <input type="email" name="email" placeholder="Enter email Address" required>
+        <input type="text" name="subject" placeholder="Enter Your subject" required>
+        <textarea rows="8" name="message" placeholder="Massage" required></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<!------- Footer ------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd).<br>The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-phone"></i>
+    <i class="fa fa-envelope"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by ICT-C Student</p>
+</section>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+  var navlink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right = "0";
+  }
+  function hideMenu(){
+    navLink.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>

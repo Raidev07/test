@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSHS PORTAL</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="history.html">HISTORY</a></li>
+          <li><a href="strand.html">STRANDS</a></li>
+          <li><a href="vlog.html">VLOGS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+  <div class="text-box">
+    <h1>WELCOME TO BUTING SENIOR HIGH SCHOOL</h1>
+    <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd). The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program.</p>
+    <a href="about.html"class="hero-btn">Visit Us to Know More</a>
+  </div>
+  </section>
+
+<!------ Strand ------->
+
+<section class="strand">
+  <h1>Our School Vision & Mission</h1>
+
+  <div class="row">
+    <div class="strand-col">
+      <h3>Vision</h3>
+      <p>We dream of Filipinos who passionately love their country in whose competencies and values enabled them to realize their full potential and contribute meaningfully to building the nation. We are learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.</p>
+    </div>
+    <div class="strand-col">
+      <h3>Mission</h3>
+      <p>To protect and promote the right of every Filipino to quality, equitable, culture-based and complete basic education where students learn in a child-friendly, gender sensitive and safe and motivating environment. Teachers facilitate learning and constantly nurture every learner. Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen. Family, community and other stakeholders are  actively engaged and share responsibility for developing life-long learners.</p>
+    </div>
+  </div>
+</section>
+
+<!------- event ------>
+
+<section class="event">
+  <h1>Our School Event</h1>
+  <p>Here's the following event from our school</p>
+
+  <div class="row">
+    <div class="event-col">
+      <img src="images/kasaglaw.png">
+      <div class="layer">
+        <h3>HOPE MONTH</h3>
+      </div>
+    </div>
+    <div class="event-col">
+      <img src="images/arts1.png">
+      <div class="layer">
+        <h3>ARTS MONTH</h3>
+      </div>
+    </div>
+    <div class="event-col">
+      <img src="images/english.png">
+      <div class="layer">
+        <h3>ENGLISH MONTH</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------- Uniform ------>
+
+<section class="uniform">
+  <h1>Our School Uniform</h1>
+  <p>Here are the things to remember in our Official Dress Code at Buting Senior High School.</p>
+
+  <div class="row">
+    <div class="uniform-col">
+      <img src="images/uniform1.png">
+    </div>
+    <div class="uniform-col">
+      <img src="images/uniform3.png">
+    </div>
+    <div class="uniform-col">
+      <img src="images/uniform2.png">
+    </div>
+  </div>
+</section>
+
+<!------- Call To Action ------>
+
+<section class="cta">
+  <h1>Enroll For Incoming Grade 11</h1>
+  <a href="contact.html"class="hero-btn">CONTACT US</a>
+</section>
+
+<!------- Footer ------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd).<br>The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-phone"></i>
+    <i class="fa fa-envelope"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by ICT-C Student</p>
+</section>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+  var navlink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right = "0";
+  }
+  function hideMenu(){
+    navLink.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>

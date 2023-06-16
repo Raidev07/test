@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSHS PORTAL</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="history.html">ABOUT</a></li>
+          <li><a href="strand.html">STRANDS</a></li>
+          <li><a href="vlog.html">VLOGS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>BSHS DAILY VLOGS</h1>
+  </section>
+
+<!------- VIDEO ------>
+<div class="video-container">
+  <h2 class="video-title">A Glimpse Of Our Day</h2>
+  <video class="video" src="VIDEO/A glimpse of our day (pt3 amplayo & escalona).mp4" controls muted></video>
+</div>
+
+<div class="video-container">
+  <h2 class="video-title">A Day In My Life</h2>
+  <video class="video" src="VIDEO/Cruz, Amiel Redner V.mp4" controls muted></video>
+</div>
+
+<div class="video-container">
+  <h2 class="video-title"><h2>A Day In Our Life As A JDVP Students</h2>
+  <video class="video" src="VIDEO/lv_0_20230616211005.mp4" controls muted></video>
+</div>
+
+<div class="video-container">
+  <h2 class="video-title">A Day In Our Life (mini-vlog)</h2>
+  <video class="video" src="VIDEO/lv_0_20230616211341.mp4" controls muted></video>
+</div>
+
+
+<!------- Footer ------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd).<br>The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-phone"></i>
+    <i class="fa fa-envelope"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by ICT-C Student</p>
+</section>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+  var navlink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right = "0";
+  }
+  function hideMenu(){
+    navLink.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
